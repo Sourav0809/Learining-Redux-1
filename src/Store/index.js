@@ -15,14 +15,14 @@ const countReducer = (state = { counter: 0 }, action) => {
         }
 
     }
-    if (action.type == 'increment2') {
-        return { counter: state.counter + 2 }
+    if (action.type == 'increment5') {
+        return { counter: state.counter + 5 }
 
     }
-    else if (action.type == 'decrement2') {
+    else if (action.type == 'decrement5') {
         if (state.counter > 0) {
 
-            return { counter: state.counter - 2 }
+            return { counter: state.counter - 5 }
         }
         else {
             return state

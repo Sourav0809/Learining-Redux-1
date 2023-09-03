@@ -14,10 +14,10 @@ const Counter = () => {
     dispatch({ type: 'decrement' })
   }
   const incrementByTwoHandler = () => {
-    dispatch({ type: 'increment2' })
+    dispatch({ type: 'increment5' })
   }
   const decrementByTwoHandler = () => {
-    dispatch({ type: 'decrement2' })
+    dispatch({ type: 'decrement5' })
   }
 
   return (
